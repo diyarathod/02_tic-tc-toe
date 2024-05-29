@@ -54,13 +54,15 @@ body{
     transition: width 1s ease-in-out;
     margin: 0 560px;
 }
-button{
+.btn{
     justify-content: center;
+    width: 100%;
+    display: flex;
+}
+button{
     background-color: rgb(246, 133, 244);
     font-family:Arial, Helvetica, sans-serif;
-    display: flex;
     font-size: 25px;
-    align-items: center;
     border-radius: 20px;
     cursor: pointer;
     margin: 8px 650px;
